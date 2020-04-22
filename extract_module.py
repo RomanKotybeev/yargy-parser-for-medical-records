@@ -32,7 +32,7 @@ def extract(text):
                 'ППТ', 'ЛПТ', 'бытовые условия', 'питание', 'интоксикация', 'ЧСС', 'болезненность лимфоузлов', 'увеличенность лимфоузлов','размер лимфоузлов', 'острое начало']
 
     dict_symp = dict.fromkeys(symptoms)
-    dict_index = dict.fromkeys(symptoms)
+    dict_index = list()
 
     dates_lst = []
     dates_spans = []
